@@ -1,0 +1,16 @@
+C:\development\AIECommerce\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\development\AIECommerce\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+C:\development\AIECommerce\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+C:\development\AIECommerce\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+C:\development\AIECommerce\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+C:\development\AIECommerce\Repositories\bin\Debug\net8.0\Repositories.deps.json
+C:\development\AIECommerce\Repositories\bin\Debug\net8.0\Repositories.dll
+C:\development\AIECommerce\Repositories\bin\Debug\net8.0\Repositories.pdb
+C:\development\AIECommerce\Repositories\bin\Debug\net8.0\Entities.dll
+C:\development\AIECommerce\Repositories\bin\Debug\net8.0\Entities.pdb
+C:\development\AIECommerce\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+C:\development\AIECommerce\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+C:\development\AIECommerce\Repositories\obj\Debug\net8.0\Repositories.dll
+C:\development\AIECommerce\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+C:\development\AIECommerce\Repositories\obj\Debug\net8.0\Repositories.pdb
+C:\development\AIECommerce\Repositories\obj\Debug\net8.0\ref\Repositories.dll
