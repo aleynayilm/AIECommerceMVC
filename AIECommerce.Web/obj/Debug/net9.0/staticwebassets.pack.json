@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\images\\10.jpeg"
     },
     {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\124a4c3d-06ec-438b-b794-f1514466e0de.jpeg",
+      "PackagePath": "staticwebassets\\images\\124a4c3d-06ec-438b-b794-f1514466e0de.jpeg"
+    },
+    {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\169d5fa8-a9e0-4eae-b9cd-5535d78553bf.jpeg",
+      "PackagePath": "staticwebassets\\images\\169d5fa8-a9e0-4eae-b9cd-5535d78553bf.jpeg"
+    },
+    {
       "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\2.jpeg",
       "PackagePath": "staticwebassets\\images\\2.jpeg"
     },
@@ -29,36 +37,112 @@
       "PackagePath": "staticwebassets\\images\\4.jpeg"
     },
     {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\41b47777-4e64-4c94-9192-bbddb2d997ff.jpeg",
+      "PackagePath": "staticwebassets\\images\\41b47777-4e64-4c94-9192-bbddb2d997ff.jpeg"
+    },
+    {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\4434617e-b457-4e6c-850b-19d8f15feb43.jpeg",
+      "PackagePath": "staticwebassets\\images\\4434617e-b457-4e6c-850b-19d8f15feb43.jpeg"
+    },
+    {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\48f87b7e-4e29-4e3a-9984-58299a17efd1.jpeg",
+      "PackagePath": "staticwebassets\\images\\48f87b7e-4e29-4e3a-9984-58299a17efd1.jpeg"
+    },
+    {
       "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\5.jpeg",
       "PackagePath": "staticwebassets\\images\\5.jpeg"
+    },
+    {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\5431194f-9f04-409c-8df4-1ba146988c1b.jpeg",
+      "PackagePath": "staticwebassets\\images\\5431194f-9f04-409c-8df4-1ba146988c1b.jpeg"
+    },
+    {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\5ef2a481-da9b-4c66-be52-68219897da1f.jpeg",
+      "PackagePath": "staticwebassets\\images\\5ef2a481-da9b-4c66-be52-68219897da1f.jpeg"
     },
     {
       "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\6.jpeg",
       "PackagePath": "staticwebassets\\images\\6.jpeg"
     },
     {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\6cfbb846-126a-4254-9d20-fb824fff7ec3.jpeg",
+      "PackagePath": "staticwebassets\\images\\6cfbb846-126a-4254-9d20-fb824fff7ec3.jpeg"
+    },
+    {
       "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\7.jpeg",
       "PackagePath": "staticwebassets\\images\\7.jpeg"
+    },
+    {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\7b574bf0-4ba4-4290-bee4-ef9a13453509.jpeg",
+      "PackagePath": "staticwebassets\\images\\7b574bf0-4ba4-4290-bee4-ef9a13453509.jpeg"
     },
     {
       "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\8.jpeg",
       "PackagePath": "staticwebassets\\images\\8.jpeg"
     },
     {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\89ab5f2a-4be6-4b6f-b5d8-0e475c78da99.jpeg",
+      "PackagePath": "staticwebassets\\images\\89ab5f2a-4be6-4b6f-b5d8-0e475c78da99.jpeg"
+    },
+    {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\8eae380d-3bb6-439e-92cf-33be00646078.jpeg",
+      "PackagePath": "staticwebassets\\images\\8eae380d-3bb6-439e-92cf-33be00646078.jpeg"
+    },
+    {
       "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\9.jpeg",
       "PackagePath": "staticwebassets\\images\\9.jpeg"
+    },
+    {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\92678e50-0a5f-467e-9ea7-cad665711cef.jpeg",
+      "PackagePath": "staticwebassets\\images\\92678e50-0a5f-467e-9ea7-cad665711cef.jpeg"
+    },
+    {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\9ff7866a-b262-41d4-b51d-08cc8d504dce.jpeg",
+      "PackagePath": "staticwebassets\\images\\9ff7866a-b262-41d4-b51d-08cc8d504dce.jpeg"
+    },
+    {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\Formal Dresses Homecoming Dress Hoco Dresses Knit Fabric Cowl Neck Solid Glitter Ruffle Hem Maxi Dres.jpeg",
+      "PackagePath": "staticwebassets\\images\\Formal Dresses Homecoming Dress Hoco Dresses Knit Fabric Cowl Neck Solid Glitter Ruffle Hem Maxi Dres.jpeg"
+    },
+    {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\Ida Pants Trani Stripe - Final Sale - XL _ TRANI STRIPE.jpeg",
+      "PackagePath": "staticwebassets\\images\\Ida Pants Trani Stripe - Final Sale - XL _ TRANI STRIPE.jpeg"
+    },
+    {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\Suni Deri Ceket.jpeg",
+      "PackagePath": "staticwebassets\\images\\Suni Deri Ceket.jpeg"
     },
     {
       "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\YUNZII YZ87 75% Gasket Mechanical Keyboard.jpeg",
       "PackagePath": "staticwebassets\\images\\YUNZII YZ87 75% Gasket Mechanical Keyboard.jpeg"
     },
     {
-      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\defaultImage.jpg",
-      "PackagePath": "staticwebassets\\images\\defaultImage.jpg"
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\Yüksek Bel Straight Fit Kumaş Pantolon.jpeg",
+      "PackagePath": "staticwebassets\\images\\Yüksek Bel Straight Fit Kumaş Pantolon.jpeg"
+    },
+    {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\b16a24c3-be31-460e-a9f3-b4c7ec5efbcd.jpeg",
+      "PackagePath": "staticwebassets\\images\\b16a24c3-be31-460e-a9f3-b4c7ec5efbcd.jpeg"
+    },
+    {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\brown cat sweater.jpeg",
+      "PackagePath": "staticwebassets\\images\\brown cat sweater.jpeg"
+    },
+    {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\f8407aa3-30af-4274-bf12-5334f770e62b.jpeg",
+      "PackagePath": "staticwebassets\\images\\f8407aa3-30af-4274-bf12-5334f770e62b.jpeg"
     },
     {
       "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\prideandprejudice.jpeg",
       "PackagePath": "staticwebassets\\images\\prideandprejudice.jpeg"
+    },
+    {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\Çok renkli örgü hırka -  Kadın _ Mango Türkiye.jpeg",
+      "PackagePath": "staticwebassets\\images\\Çok renkli örgü hırka -  Kadın _ Mango Türkiye.jpeg"
+    },
+    {
+      "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\Ördek.jpg",
+      "PackagePath": "staticwebassets\\images\\Ördek.jpg"
     },
     {
       "Id": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\js\\site.js",
