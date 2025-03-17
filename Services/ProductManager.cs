@@ -26,6 +26,10 @@ namespace Services
         public void CreateProduct(ProductDtoForInsertion productDto)
         {
 			Product product = _mapper.Map<Product>(productDto);
+			if (!string.IsNullOrWhiteSpace(productDto.ImageUrl))
+    {
+        product.ImageUrl = productDto.ImageUrl; // Veritabanına kaydedilecek URL
+    }
 			_manager.ProductR.Create(product);
 			_manager.Save();
         }

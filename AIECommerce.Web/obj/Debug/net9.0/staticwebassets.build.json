@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+odoCrGRTFAVsTbQ3BgDne8ArrbsR9Wuzks4QO33NDA=",
+  "Hash": "PIwwdQ9PlJO0N6ku6YBZK/0pRg0Y8VjTR4wM+1SRLu4=",
   "Source": "AIECommerce.Web",
   "BasePath": "_content/AIECommerce.Web",
   "Mode": "Default",
@@ -2493,6 +2493,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\89ab5f2a-4be6-4b6f-b5d8-0e475c78da99.jpeg"
+    },
+    {
+      "Identity": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\8b4b8c79cc03001427b9369e4432b7c9.jpg",
+      "SourceId": "AIECommerce.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\",
+      "BasePath": "_content/AIECommerce.Web",
+      "RelativePath": "images/8b4b8c79cc03001427b9369e4432b7c9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pbzhwahgsl",
+      "Integrity": "65oQF2FZ4U2qzVKW9zEhWeWB6ksJZ1qDemcsoXGjRfA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\8b4b8c79cc03001427b9369e4432b7c9.jpg"
     },
     {
       "Identity": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\8eae380d-3bb6-439e-92cf-33be00646078.jpeg",
@@ -9078,6 +9099,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Tc91T9Oz9qZdJDLOhYcqWwChD3rKBRs27e9PcRzIQ/I="
+        }
+      ]
+    },
+    {
+      "Route": "images/8b4b8c79cc03001427b9369e4432b7c9.jpg",
+      "AssetFile": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\8b4b8c79cc03001427b9369e4432b7c9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18647"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"65oQF2FZ4U2qzVKW9zEhWeWB6ksJZ1qDemcsoXGjRfA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 17:15:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-65oQF2FZ4U2qzVKW9zEhWeWB6ksJZ1qDemcsoXGjRfA="
+        }
+      ]
+    },
+    {
+      "Route": "images/8b4b8c79cc03001427b9369e4432b7c9.pbzhwahgsl.jpg",
+      "AssetFile": "C:\\development\\AIECommerce\\AIECommerce.Web\\wwwroot\\images\\8b4b8c79cc03001427b9369e4432b7c9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18647"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"65oQF2FZ4U2qzVKW9zEhWeWB6ksJZ1qDemcsoXGjRfA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 17:15:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pbzhwahgsl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/8b4b8c79cc03001427b9369e4432b7c9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-65oQF2FZ4U2qzVKW9zEhWeWB6ksJZ1qDemcsoXGjRfA="
         }
       ]
     },

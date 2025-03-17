@@ -17,11 +17,9 @@ builder.Services.ConfigureRepositoryRegistration();
 builder.Services.ConfigureServiceRegistration();
 builder.Services.ConfigureRouting();
 
-// ReplicateAIService için HttpClient kaydı
 builder.Services.AddHttpClient<IReplicateAIService, ReplicateAIService>(client =>
 {
 });
-//builder.Services.AddSingleton<ReplicateAIService>();
 
 builder.Services.AddAuthorization(options =>
 {

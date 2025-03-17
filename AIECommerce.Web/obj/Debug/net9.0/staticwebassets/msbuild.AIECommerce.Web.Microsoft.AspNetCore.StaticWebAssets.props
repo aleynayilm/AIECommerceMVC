@@ -378,6 +378,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\89ab5f2a-4be6-4b6f-b5d8-0e475c78da99.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\8b4b8c79cc03001427b9369e4432b7c9.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AIECommerce.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AIECommerce.Web</BasePath>
+      <RelativePath>images/8b4b8c79cc03001427b9369e4432b7c9.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pbzhwahgsl</Fingerprint>
+      <Integrity>65oQF2FZ4U2qzVKW9zEhWeWB6ksJZ1qDemcsoXGjRfA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\8b4b8c79cc03001427b9369e4432b7c9.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\8eae380d-3bb6-439e-92cf-33be00646078.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>AIECommerce.Web</SourceId>

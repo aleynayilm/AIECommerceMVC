@@ -7,7 +7,7 @@ using Entities.Models;
 using Microsoft.Extensions.Configuration;
 using Repositories;
 using Services.Contracts;
-    public class ReplicateAIService : RepositoryBase<Product>, IReplicateAIService
+public class ReplicateAIService : RepositoryBase<Product>, IReplicateAIService
 {
     private readonly HttpClient _httpClient;
     private readonly RepositoryContext _repositoryContext;
@@ -29,9 +29,11 @@ using Services.Contracts;
         {
             // Ürün görselini veritabanından al
             var productImageUrl = _repositoryContext.Products
-                .Where(p => p.ProductName == productName)
+                .Where(p => p.ProductName.ToLower().Trim() == productName.ToLower().Trim())
                 .Select(p => p.ImageUrl)
                 .FirstOrDefault();
+            Console.WriteLine($"✅ Ürün Adı: {productName}");
+            Console.WriteLine($"✅ Ürün Görsel URL'si: {productImageUrl}");
 
             if (string.IsNullOrEmpty(productImageUrl))
             {
@@ -60,7 +62,7 @@ using Services.Contracts;
 
             // API anahtarını ayarla
             string apiKey = _configuration["Replicate:ApiKey"] ?? throw new Exception("API anahtarı bulunamadı.");
-            
+
             _httpClient.DefaultRequestHeaders.Clear();
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
             _httpClient.DefaultRequestHeaders.Add("Prefer", "wait");

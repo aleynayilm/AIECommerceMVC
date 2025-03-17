@@ -29,8 +29,10 @@
     </div>
 
     <div class="form-group my-3">
-        <label asp-for="ImageUrl"></label>
+        <label asp-for="ImageUrl">Görsel Yükleme veya URL Girme</label>
         <input name="file" type="file" class="form-control" />
+        <small class="text-muted">Ya dosya yükleyin ya da aşağıya bir URL girin.</small>
+        <input asp-for="ImageUrl" type="text" class="form-control mt-2" placeholder="Görsel URL'sini buraya girin" />
     </div>
 
     <div class="form-group my-3">
