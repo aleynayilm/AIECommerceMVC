@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\development\\AIECommerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D627021C-2EF2-46CC-B7C5-DD2CA8290078}|Services\\Services.csproj|c:\\development\\aiecommerce\\services\\replicateaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D627021C-2EF2-46CC-B7C5-DD2CA8290078}|Services\\Services.csproj|solutionrelative:services\\replicateaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE3197BA-44B7-4404-972E-B3FD3E517D31}|Repositories\\Repositories.csproj|c:\\development\\aiecommerce\\repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{FE3197BA-44B7-4404-972E-B3FD3E517D31}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D627021C-2EF2-46CC-B7C5-DD2CA8290078}|Services\\Services.csproj|c:\\development\\aiecommerce\\services\\replicateaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D627021C-2EF2-46CC-B7C5-DD2CA8290078}|Services\\Services.csproj|solutionrelative:services\\replicateaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{676318B2-0BC4-49C8-BA98-126D9498063C}|AIECommerce.Web\\AIECommerce.Web.csproj|c:\\development\\aiecommerce\\aiecommerce.web\\aiecommerce.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{676318B2-0BC4-49C8-BA98-126D9498063C}|AIECommerce.Web\\AIECommerce.Web.csproj|solutionrelative:aiecommerce.web\\aiecommerce.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{676318B2-0BC4-49C8-BA98-126D9498063C}|AIECommerce.Web\\AIECommerce.Web.csproj|c:\\development\\aiecommerce\\aiecommerce.web\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -26,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Repositories",
-              "DocumentMoniker": "C:\\development\\AIECommerce\\Repositories\\Repositories.csproj",
-              "RelativeDocumentMoniker": "Repositories\\Repositories.csproj",
-              "ToolTip": "C:\\development\\AIECommerce\\Repositories\\Repositories.csproj",
-              "RelativeToolTip": "Repositories\\Repositories.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-16T23:58:20.092Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -59,33 +50,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AIECommerce.Web.csproj",
+              "DocumentMoniker": "C:\\development\\AIECommerce\\AIECommerce.Web\\AIECommerce.Web.csproj",
+              "RelativeDocumentMoniker": "AIECommerce.Web\\AIECommerce.Web.csproj",
+              "ToolTip": "C:\\development\\AIECommerce\\AIECommerce.Web\\AIECommerce.Web.csproj",
+              "RelativeToolTip": "AIECommerce.Web\\AIECommerce.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-17T00:24:36.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Repositories.csproj",
+              "DocumentMoniker": "C:\\development\\AIECommerce\\Repositories\\Repositories.csproj",
+              "RelativeDocumentMoniker": "Repositories\\Repositories.csproj",
+              "ToolTip": "C:\\development\\AIECommerce\\Repositories\\Repositories.csproj",
+              "RelativeToolTip": "Repositories\\Repositories.csproj",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowAkAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-16T23:58:20.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ReplicateAIService.cs",
               "DocumentMoniker": "C:\\development\\AIECommerce\\Services\\ReplicateAIService.cs",
               "RelativeDocumentMoniker": "Services\\ReplicateAIService.cs",
               "ToolTip": "C:\\development\\AIECommerce\\Services\\ReplicateAIService.cs",
               "RelativeToolTip": "Services\\ReplicateAIService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAuwDkAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwB8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T15:25:42.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\development\\AIECommerce\\AIECommerce.Web\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "AIECommerce.Web\\Views\\Product\\Index.cshtml",
               "ToolTip": "C:\\development\\AIECommerce\\AIECommerce.Web\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "AIECommerce.Web\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T15:25:26.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T15:25:26.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\development\\AIECommerce\\AIECommerce.Web\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "AIECommerce.Web\\Controllers\\ProductController.cs",
@@ -93,8 +109,7 @@
               "RelativeToolTip": "AIECommerce.Web\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:25:03.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T15:25:03.109Z"
             }
           ]
         }

@@ -17,7 +17,7 @@ namespace AIECommerce.Web.Infrastructure.Extensions
         public static void ConfigureDbContext(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<RepositoryContext>(options => {
-                options.UseSqlite(configuration.GetConnectionString("DefaultConnection"),
+                options.UseSqlServer(configuration.GetConnectionString("mssqlconnection"),
                     b => b.MigrationsAssembly("AIECommerce.Web"));
                 options.EnableSensitiveDataLogging(true);
                 options.ConfigureWarnings(warnings => warnings.Ignore(RelationalEventId.PendingModelChangesWarning));

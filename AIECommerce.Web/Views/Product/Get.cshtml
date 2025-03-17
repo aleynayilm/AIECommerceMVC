@@ -33,11 +33,60 @@
             <i class="fa-solid fa-list"></i>
             Products
         </a>
+        <button class="btn btn-outline-secondary" onclick="toggleUploadSection()">
+            <i class="fa-solid fa-wand-magic-sparkles" style="color: #DDA0DD;"></i>
+            Try On
+        </button>
+    </div>
+</div>
+<!-- Kullanıcı Fotoğraf Yükleme Alanı -->
+<div id="uploadSection" class="upload-container my-5" style="display: none;">
+    <h4>Kendi Üzerinizde Görmek İçin Fotoğraf Yükleyin</h4>
+    <form id="productForm" enctype="multipart/form-data">
+        <input type="file" id="userImage" accept="image/*" class="form-control my-2" />
+        <button type="submit" class="btn btn-primary">Kendi Üzerimde Gör</button>
+    </form>
+
+    <!-- AI ile üretilen görsel buraya gelecek -->
+    <div class="text-center mt-3">
+        <img id="generatedImage" style="display:none; width: 300px; border-radius:10px;" />
     </div>
 </div>
 
-@section Header {
-    <div>
-        Header for only Get
-    </div>
-}
+<script>
+    function toggleUploadSection() {
+        let section = document.getElementById("uploadSection");
+        section.style.display = section.style.display === "none" ? "block" : "none";
+    }
+
+    document.getElementById("productForm").addEventListener("submit", async function (event) {
+        event.preventDefault();
+
+        let formData = new FormData();
+        let imageFile = document.getElementById("userImage").files[0];
+        let productName = "@Model.ProductName"; // Modelden ürün ismini alıyoruz
+
+        if (!imageFile) {
+            alert("Lütfen bir resim yükleyin.");
+            return;
+        }
+
+        formData.append("image", imageFile);
+        formData.append("productName", productName);
+
+        let response = await fetch("/Product/GenerateImage", {
+            method: "POST",
+            body: formData
+        });
+
+        let data = await response.json();
+        document.getElementById("generatedImage").src = data.image_url;
+        document.getElementById("generatedImage").style.display = "block";
+    });
+</script>
+
+@* @section Header {
+<div>
+Header for only Get
+</div>
+} *@

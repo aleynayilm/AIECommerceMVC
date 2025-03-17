@@ -18,52 +18,12 @@
                  page-class-normal="btn-outline-dark" page-class-selected="btn-secondary" class="btn-group">
             </div>
         </div>
-        <!-- Kullanıcı Fotoğraf Yükleme Alanı -->
-        <div class="upload-container my-5">
-            <h4>Kendi Üzerinizde Görmek İçin Fotoğraf Yükleyin</h4>
-            <form id="productForm" enctype="multipart/form-data">
-                <input type="file" id="userImage" accept="image/*" class="form-control my-2" />
-                <input type="text" id="productName" placeholder="Ürün Adını Girin" class="form-control my-2" />
-                <button type="submit" class="btn btn-primary">Kendi Üzerimde Gör</button>
-            </form>
-
-            <!-- AI ile üretilen görsel buraya gelecek -->
-            <div class="text-center mt-3">
-                <img id="generatedImage" style="display:none; width: 300px; border-radius:10px;" />
-            </div>
-        </div>
     </div>
 </div>
 
 
-@section Footer {
+@* @section Footer {
     <div>
         Only for Index footer
     </div>
-}
-<script>
-    document.getElementById("productForm").addEventListener("submit", async function(event) {
-        event.preventDefault();
-
-        let formData = new FormData();
-        let imageFile = document.getElementById("userImage").files[0];
-        let productName = document.getElementById("productName").value;
-
-        if (!imageFile || !productName) {
-            alert("Lütfen bir resim ve ürün adı girin.");
-            return;
-        }
-
-        formData.append("image", imageFile);
-        formData.append("productName", productName);
-
-        let response = await fetch("/Product/GenerateImage", {
-            method: "POST",
-            body: formData
-        });
-
-        let data = await response.json();
-        document.getElementById("generatedImage").src = data.image_url;
-        document.getElementById("generatedImage").style.display = "block";
-    });
-</script>
+} *@

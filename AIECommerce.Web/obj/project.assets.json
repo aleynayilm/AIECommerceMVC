@@ -2153,7 +2153,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.2"
         },
         "compile": {
           "bin/placeholder/Repositories.dll": {}

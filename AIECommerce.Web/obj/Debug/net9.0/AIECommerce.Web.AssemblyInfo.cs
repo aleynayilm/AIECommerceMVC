@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AIECommerce.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e13ca3b7bdd3b0f9399642ff8aa0df4be42aec44")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc048df38ac168b2b23cd7603908eb872adf26dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("AIECommerce.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AIECommerce.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

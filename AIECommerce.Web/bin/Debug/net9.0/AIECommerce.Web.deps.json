@@ -1336,7 +1336,8 @@
       },
       "Repositories/1.0.0": {
         "dependencies": {
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.2"
         },
         "runtime": {
           "Repositories.dll": {

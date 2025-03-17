@@ -3,7 +3,9 @@ using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using Entities.Dtos;
 using Entities.Models;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Repositories;
 using Services.Contracts;
@@ -24,44 +26,47 @@ public class ReplicateAIService : RepositoryBase<Product>, IReplicateAIService
     public async Task<string> GenerateProductImageAsync(string productName, string userImageUrl)
     {
         Console.WriteLine("✅ GenerateImage metodu başladı.");
-
         try
         {
-            // Ürün görselini veritabanından al
-            var productImageUrl = _repositoryContext.Products
-                .Where(p => p.ProductName.ToLower().Trim() == productName.ToLower().Trim())
-                .Select(p => p.ImageUrl)
-                .FirstOrDefault();
-            Console.WriteLine($"✅ Ürün Adı: {productName}");
-            Console.WriteLine($"✅ Ürün Görsel URL'si: {productImageUrl}");
+            var product = await _repositoryContext.Products
+            .Where(p => p.ProductName.ToLower() == productName.ToLower())
+            .FirstOrDefaultAsync();
+             if (product == null)
+        {
+            throw new Exception($"Ürün bulunamadı: {productName}");
+        }
 
-            if (string.IsNullOrEmpty(productImageUrl))
-            {
-                throw new Exception($"Ürün görsel URL'si bulunamadı: {productName}");
-            }
+        string productImageUrl = product.ImageUrl; // Product nesnesinden ImageUrl alıyoruz
 
-            Console.WriteLine($"✅ Ürün görseli bulundu: {productImageUrl}");
+        Console.WriteLine($"✅ Ürün Adı: {productName}");
+        Console.WriteLine($"✅ Ürün Görsel URL'si: {productImageUrl}");
 
-            // API isteği için JSON verisi
+        if (string.IsNullOrEmpty(productImageUrl))
+        {
+            throw new Exception($"Ürün görsel URL'si bulunamadı: {productName}");
+        }
+
+        Console.WriteLine($"✅ Ürün görseli bulundu: {productImageUrl}");
+
             var requestData = new
+        {
+            version = "c871bb9b046607b680449ecbae55fd8c6d945e0a1948644bf2361b3d021d3ff4",
+            input = new
             {
-                version = "c871bb9b046607b680449ecbae55fd8c6d945e0a1948644bf2361b3d021d3ff4",
-                input = new
-                {
-                    crop = false,
-                    seed = 42,
-                    steps = 30,
-                    category = "upper_body",
-                    force_dc = false,
-                    garm_img = productImageUrl,
-                    human_img = userImageUrl,
-                    mask_only = false,
-                    garment_des = productName
-                }
-            };
+                crop = false,
+                seed = 42,
+                steps = 30,
+                category = "upper_body",
+                force_dc = false,
+                garm_img = productImageUrl,
+                human_img = userImageUrl,
+                mask_only = false,
+                garment_des = productName
+            }
+        };
 
             // API anahtarını ayarla
-            string apiKey = _configuration["Replicate:ApiKey"] ?? throw new Exception("API anahtarı bulunamadı.");
+            string apiKey ="r8_V3GfxJzHyAvM0vnSymEXoYh0KFPlks84SI8he";
 
             _httpClient.DefaultRequestHeaders.Clear();
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
